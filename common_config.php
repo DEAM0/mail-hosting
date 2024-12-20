@@ -15,17 +15,10 @@ const CAPTCHA_DIFFICULTY = 1; // captcha difficulty from 0 to 4
 const RESERVED_USERNAMES = ['about', 'abuse', 'admin', 'administrator', 'billing', 'contact', 'daemon', 'ftp', 'help', 'hostmaster', 'info', 'legal', 'list', 'list-request', 'lists', 'maildaemon', 'mailerdaemon', 'mailer-daemon', 'marketing', 'media', 'news', 'newsletter', 'nobody', 'noc', 'noreply', 'no-reply', 'notification', 'notifications', 'notify', 'offer', 'offers', 'office', 'official', 'order', 'orders', 'phish', 'phishing', 'postmaster', 'root', 'sale', 'sales', 'security', 'service', 'services', 'shop', 'shopping', 'spam', 'staff', 'support', 'survey', 'system', 'team', 'teams', 'unsbubscribe', 'uucp', 'usenet', 'user', 'username', 'users', 'web', 'webmail', 'webmaster', 'webmasters', 'welcome', 'www']; // list of reserved usernames that can mot be used on public registration
 const CANONICAL_URL = 'https://danwin1210.de/mail/'; // our preferred URL prefix for search engines
 const PRIVACY_POLICY_URL = '/privacy.php'; // URL to privacy policy
-const WEB_XMPP_URL = 'https://danwin1210.de:5281/conversejs'; // URL to Web-XMPP
-const XMPP_BOSH_URL = 'https://danwin1210.de:5281/http-bind'; // XMPP BOSH URL
-const XMPP_FILE_PROXY = 'proxy.danwin1210.de'; // File proxy domain
 const ROOT_URL = '/mail/'; // Relative root URL under which the mail hosting is installed
 const CONTACT_URL = '/contact.php'; // URL to get in contact with you
 const CLEARNET_SERVER = 'danwin1210.de'; // Clearnet domain of the mail server
 const ONION_SERVER = 'danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion'; // Onion domain of the mail server
-const DBHOST_PROSODY = 'localhost'; // Database host
-const DBUSER_PROSODY = 'prosody'; // Database user
-const DBPASS_PROSODY = 'YOUR_PASSWORD'; // Database password
-const DBNAME_PROSODY = 'prosody'; // Database
 const REGISTRATION_ENABLED = true; // Whether registration is enabled
 const DEFAULT_QUOTA = 50 * 1024 * 1024; // Default mailbox quota in bytes
 
